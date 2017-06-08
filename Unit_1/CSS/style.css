@@ -1,4 +1,6 @@
-body {background-color: green;
+<style>
+body {background-color: yellow;
 }
 h1, p {color: white;
 }
+</style>
