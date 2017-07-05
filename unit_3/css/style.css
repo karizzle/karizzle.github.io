@@ -1,6 +1,6 @@
 body {
 	background-color: gray; 
-	background-origin: ("/unit_3/images/flowergarden.jpg");
+	background-image: url ("/unit_3/images/flowergarden.jpg");
 	background-size: cover;
 	color: #fff;
 	font-family: Helvetica;
