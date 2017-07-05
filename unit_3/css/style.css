@@ -1,9 +1,6 @@
 body {
-	background-color: gray; 
 	background-image: url(images/flowergarden.jpg);
 	background-size: cover;
-	color: #fff;
-	font-family: Helvetica;
 }
 h1, p {
 	color: #fff; 
