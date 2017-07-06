@@ -1,5 +1,5 @@
 html {
-	background-color: #535556;
+	background-color: #fff;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -9,7 +9,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #535556;
+    background-color: #fff;
+    font-color: #09ae95;
 }
 
 li {
@@ -24,19 +25,20 @@ li a, .dropbtn {
     font-family: Calibri, sans-serif;
     font-size: 14px;
     font-weight: bold;
-    font-color: #09ae95;
-    background-color: #535556;
+    background-color: #fff;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    font-color: #09ae95;
-    background-color: #535556;
+    font-color: #00000f;
+    background-color: #fff;
+    text-decoration-color: #09ae95;
 }
 
 li.dropdown {
     display: inline-block;
-    font-color: #535556;
+    font-color: #fff;
     background-color: #09ae95;
+    text-decoration-color: #fff;
 }
 
 .dropdown-content {
@@ -45,8 +47,8 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-color: #535556;
-    background-color: #09ae95;
+    font-color: #00000f;
+    background-color: #fff;
 }
 
 .dropdown-content a {
@@ -55,44 +57,55 @@ li.dropdown {
     display: block;
     text-align: left;
     font-family: Calibri, sans-serif;
-    font-color: #535556;
-    background-color: #09ae95;
+    font-color: #09ae95;
+    background-color: #fff;
 }
 
 .dropdown-content a:hover {
-	font-color: #535556;
+	font-color: #00000f;
+	background-color: #fff;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
-    font-color: #535556;
-    background-color: #09ae95;
+    font-color: #09ae95;
+    background-color: #fff;
+}
+#hero {
+    border: none;
+    background:url(http://www.decoratingclear.com/gmb/beautiful-flower-garden-photography-11vefpuh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:150px;
 }
 
 body {
 	font-family: Calibri, sans-serif;
 	font-color: #fff;
-	font-size: 11px;
+	font-size: 12px;
 	font-color: #fff;
 	text-align: center;
+	background-color: #cccccc;
 }
 h1 {
 	color: #fff; 
 	font-family: Calibri, sans-serif;
-	font-size: 20px;
+	font-size: 48px;
 	text-align: center;
 	text-decoration: none;
+	font-weight: bolder;
 }
 p {
 	color: #fff;
 	font-family: Calibri, sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
+	font-weight: bold;
 }
 a:link {
 	color: #09ae95;
 	text-decoration: none;
-	text-decoration-line: none;
+	font-weight: bold;
 }
 a:hover {
 	text-decoration-color: #09ae95;
@@ -104,6 +117,6 @@ a:visited {
 .center p{
 	padding-top: 100px;
 	text-align:center;
-	font-color: #fff;
+	font-color: #00000f;
 }
 
