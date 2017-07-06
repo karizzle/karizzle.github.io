@@ -82,7 +82,7 @@ li.dropdown {
 body {
 	font-family: Calibri, sans-serif;
 	font-color: #fff;
-	font-size: 12px;
+	font-size: 16px;
 	font-color: #fff;
 	text-align: center;
 	background-color: #cccccc;
@@ -95,10 +95,17 @@ h1 {
 	text-decoration: none;
 	font-weight: bolder;
 }
+h2 {
+	color: #fff;
+	font-family: Calibri, sans-serif;
+	font size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
 p {
 	color: #fff;
 	font-family: Calibri, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: center;
 	font-weight: bold;
 }
