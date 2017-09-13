@@ -100,9 +100,34 @@ li.dropdown {
     background-size: cover;
     opacity: 0.9;
     filter: alpha(opacity=90); /* For IE8 and earlier */
-    padding:150px;
+    padding:75px;
 }
-
+.center p{
+    padding-top: 100px;
+    text-align:center;
+    font-color: #00000f;
+}
+#two_column {
+    padding: 20px;
+}
+#left {
+    padding: 20px;
+    float: left;
+    width: 62%;
+}
+#right {
+    padding: 20px;
+    float: right;
+    width: 30%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 body {
 	font-family: Lato, sans-serif;
 	font-color: #fff;
@@ -145,32 +170,6 @@ a:hover {
 
 a:visited {
 	text-decoration-color: #09ae95;
-}
-.center p{
-	padding-top: 100px;
-	text-align:center;
-	font-color: #00000f;
-}
-#two_column {
-    padding: 20px;
-}
-#left {
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-#right {
-    padding: 20px;
-    float: right;
-    width: 62%;
-}
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
 }
 
 
