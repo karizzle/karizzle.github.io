@@ -62,7 +62,11 @@ li.dropdown {
     background-color: #09ae95;
     text-decoration-color: #fff;
 }
-
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -109,10 +113,6 @@ li.dropdown {
     max-height: 300px;
     max-width: 200px;
 }
-#jenny {
-    display: block;
-    margin: auto;
-}
 #wrapper {
     background-color: #fff;
 }
@@ -156,7 +156,7 @@ body {
     font-family: Lato, sans-serif;
 }
 h1 {
-    color: #09ae95; 
+    color: #fff; 
     font-family: Merriweather, serif;
     font-size: 52px;
     text-align: center;
@@ -164,7 +164,7 @@ h1 {
     font-weight: bolder;
 }
 h2 {
-    color: #ccc;
+    color: #fff;
     font-family: Merriweather, serif;
     font size: 45px;
     text-align: center;
