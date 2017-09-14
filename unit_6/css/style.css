@@ -124,7 +124,7 @@ li.dropdown {
     padding: 2.5px;
     float: left;
     width: 71%;
-   background-color #fff;
+   background-color: #fff;
    text-align: left;
    font-family: Lato, sans-serif;
    font-size: 14px;
@@ -134,11 +134,11 @@ li.dropdown {
     padding: 2px;
     float: right;
     width: 27%;
-    background-color: #ccf;
+    background-color: #ccc;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 12px;
-    font-color: #fff;
+    font-color: #cc0;
 }
 .clearfix:after {
     visibility: hidden;
