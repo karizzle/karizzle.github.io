@@ -109,6 +109,10 @@ li.dropdown {
     max-height: 300px;
     max-width: 200px;
 }
+#jenny {
+    display: block;
+    margin: auto;
+}
 #wrapper {
     background-color: #fff;
 }
