@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Headland+One|Lato|Merriweather|Neuton|Orienta|Puritan|Tauri|Vidaloka');
 
 html {
-	background-color: #fff;
+	background-color: #ccc;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 header {
-    padding: 20px;
+    padding: 10px;
 }
 nav {
     background-color: #fff;
     padding: 20px;
 }
 footer {
-    background-color: #fff;
+    background-color: #ccc;
     padding: 20px;
     font-family: Lato, sans-serif;
     font-size: 10px;
@@ -102,8 +102,18 @@ li.dropdown {
     filter: alpha(opacity=90); /* For IE8 and earlier */
     padding:100px;
 }
+#jennybio {
+    border: none;
+    padding: 20px;
+    opacity: 1.0;
+    max-height: 300px;
+    max-width: 200px;
+}
+#wrapper {
+    background-color: #fff;
+}
 .center p{
-    padding-top: 100px;
+    padding-top: 10px;
     text-align:center;
     font-color: #00000f;
 }
@@ -111,14 +121,23 @@ li.dropdown {
     padding: 20px;
 }
 #left {
-    padding: 20px;
+    padding: 2.5px;
     float: left;
-    width: 62%;
+    width: 71%;
+   background-color #fff;
+   text-align: left;
+   font-family: Lato, sans-serif;
+   font-color: #cc0;
 }
 #right {
-    padding: 20px;
+    padding: 2.5px;
     float: right;
-    width: 30%;
+    width: 27%;
+    background-color: #ccf;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    
 }
 .clearfix:after {
     visibility: hidden;
@@ -130,14 +149,9 @@ li.dropdown {
 }
 body {
 	font-family: Lato, sans-serif;
-	font-color: #fff;
-	font-size: 20px;
-	font-color: #fff;
-	text-align: center;
-	background-color: #cccccc;
 }
 h1 {
-	color: #fff; 
+	color: #09ae95; 
 	font-family: Merriweather, serif;
 	font-size: 52px;
 	text-align: center;
@@ -145,20 +159,14 @@ h1 {
 	font-weight: bolder;
 }
 h2 {
-	color: #fff;
+	color: #ccc;
 	font-family: Merriweather, serif;
 	font size: 45px;
 	text-align: center;
 	font-weight: bold;
 	font-style: italic;
 }
-p {
-	color: #fff;
-	font-family: Orienta, sans-serif;
-	font-size: 22px;
-	text-align: center;
-	font-weight: bolder;
-}
+
 a:link {
 	color: #09ae95;
 	text-decoration: none;
