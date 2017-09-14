@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Headland+One|Lato|Merriweather|Neuton|Orienta|Puritan|Tauri|Vidaloka');
 
 html {
-    background-color: #ccc;
+    background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -13,7 +13,7 @@ nav {
     padding: 20px;
 }
 footer {
-    background-color: #ccc;
+    background-color: #fff;
     padding: 20px;
     font-family: Lato, sans-serif;
     font-size: 10px;
@@ -127,17 +127,18 @@ li.dropdown {
    background-color #fff;
    text-align: left;
    font-family: Lato, sans-serif;
+   font-size: 14px;
    font-color: #cc0;
 }
 #right {
-    padding: 2.5px;
+    padding: 2px;
     float: right;
     width: 27%;
     background-color: #ccf;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 12px;
-    font-color: white;
+    font-color: #fff;
 }
 .clearfix:after {
     visibility: hidden;
