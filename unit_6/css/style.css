@@ -62,11 +62,6 @@ li.dropdown {
     background-color: #09ae95;
     text-decoration-color: #fff;
 }
-img.jenny {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -112,6 +107,9 @@ img.jenny {
     opacity: 1.0;
     max-height: 300px;
     max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 #wrapper {
     background-color: #fff;
