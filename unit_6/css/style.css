@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Headland+One|Lato|Merriweather|Neuton|Orienta|Puritan|Tauri|Vidaloka');
 
 html {
-	background-color: #ccc;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-color: #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header {
     padding: 10px;
@@ -84,8 +84,8 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-	font-color: #00000f;
-	background-color: #fff;
+    font-color: #00000f;
+    background-color: #fff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -149,36 +149,36 @@ li.dropdown {
     height: 0;
 }
 body {
-	font-family: Lato, sans-serif;
+    font-family: Lato, sans-serif;
 }
 h1 {
-	color: #09ae95; 
-	font-family: Merriweather, serif;
-	font-size: 52px;
-	text-align: center;
-	text-decoration: none;
-	font-weight: bolder;
+    color: #09ae95; 
+    font-family: Merriweather, serif;
+    font-size: 52px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
 }
 h2 {
-	color: #ccc;
-	font-family: Merriweather, serif;
-	font size: 45px;
-	text-align: center;
-	font-weight: bold;
-	font-style: italic;
+    color: #ccc;
+    font-family: Merriweather, serif;
+    font size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }
 
 a:link {
-	color: #09ae95;
-	text-decoration: none;
-	font-weight: bold;
+    color: #09ae95;
+    text-decoration: none;
+    font-weight: bold;
 }
 a:hover {
-	text-decoration-color: #09ae95;
+    text-decoration-color: #09ae95;
 }
 
 a:visited {
-	text-decoration-color: #09ae95;
+    text-decoration-color: #09ae95;
 }
 
 
