@@ -38,7 +38,7 @@ li {
     float: left;
 }
 
-li a, .dropbtn {
+li a {
     display: inline-block;
     text-align: center;
     padding: .3em .3em;
@@ -49,50 +49,13 @@ li a, .dropbtn {
     background-color: #fff;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover {
     font-color: #00000f;
     background-color: #fff;
     text-decoration-color: #09ae95
     font-size: .8em;
 }
 
-li.dropdown {
-    display: inline-block;
-    font-family: Lato, sans-serif;
-    font-color: #fff;
-    background-color: #09ae95;
-    text-decoration-color: #fff;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 1.2em;
-    box-shadow: 0em .1em .15em 0em rgba(0,0,0,0.2);
-    z-index: 1;
-    font-color: #00000f;
-    background-color: #fff;
-}
-
-.dropdown-content a {
-    padding: .15em .19em;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    font-family: Lato, sans-serif;
-    font-color: #09ae95;
-    background-color: #fff;
-}
-
-.dropdown-content a:hover {
-    font-color: #00000f;
-    background-color: #fff;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    font-color: #09ae95;
-    background-color: #fff;
-}
 #hero {
     border: none;
     background:url(http://www.decoratingclear.com/gmb/beautiful-flower-garden-photography-11vefpuh.jpg);
@@ -192,17 +155,30 @@ a:visited {
     text-decoration-color: #09ae95;
 }
 
-@media screen and (min-width: 368px) and (max-height: 564px) {
+@media screen and (max-width: 368px) and (max-height: 564px) {
 body {
     font-size: 110%;
     }
 }
 
-@media only screen and (min-width: 368px) and (max-height: 564px;) {
+@media (max-width: 368px) {
     #two_column {
         float: none;
         width: auto;
+        margin: auto;
     }
 }
+
+@media only screen and (max-width: 368px) {
+  nav {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 1em 1em 0;
+  }
+}
+
 
 
