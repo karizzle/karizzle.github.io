@@ -136,11 +136,11 @@ li.dropdown {
     padding: 1px;
     float: right;
     width: 27%;
-    background-color: #ccc;
+    background-color: #fff;
     text-align: center;
     font-family: Lato, sans-serif;
     font-size: 12px;
-    font-color: #cc0;
+    font-color: #00000f;
 }
 .clearfix:after {
     visibility: hidden;
