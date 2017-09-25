@@ -170,6 +170,14 @@ h2 {
     font-style: italic;
 }
 
+h3 { 
+    color: #cc0;
+    font-family: Merriweather, serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
 a:link {
     color: #09ae95;
     text-decoration: none;
